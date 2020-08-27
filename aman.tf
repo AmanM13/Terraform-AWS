@@ -249,5 +249,5 @@ resource "aws_ebs_snapshot" "ebs_snapshot" {
 
 # public ip
 output "IP_of_inst" {
-  value = aws_instance.web.public_ip
+  value = aws_instance.web.public_i
 }
